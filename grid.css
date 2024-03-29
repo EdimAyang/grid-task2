@@ -1,0 +1,227 @@
+/*Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    font-family: "Big Shoulders Display", sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100vh;
+
+}
+
+
+
+.grid-wrapper{
+    width: 100%;
+    min-height: 100%;
+    margin:0px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.card{
+    padding: 45px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 95%);
+    height: 90vh;
+
+}
+
+.card1{
+    background-color: hsl(31, 77%, 52%);
+
+    
+}
+
+.header h3{
+    color:hsl(0, 0%, 95%);
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+}
+
+img{
+    margin-top: 15px;
+}
+
+ p{
+    color:hsl(0, 0%, 95%) ;
+    font-family: "Lexend Deca", sans-serif;
+    position: relative;
+    top: 50px;
+    text-align: start;
+    opacity: 90%;
+    line-height: 1.5em;
+}
+
+.btn1{
+    position: relative;
+    top: 160px;
+
+}
+
+button{
+    padding: 13px 30px;
+    border-radius: 20px;
+    border: none;
+    color:hsl(31, 77%, 52%) ;
+    font-family:"Lexend Deca", sans-serif ;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:hsl(31, 77%, 52%) ;
+    color: #fff;
+    border:2px solid white;
+}
+
+
+.card2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.header h3{
+    color:hsl(0, 0%, 95%);
+    margin-top: 14px;
+    font-size: 30px;
+}
+
+img{
+    margin-top: 15px;
+}
+
+ p{
+    color:hsl(0, 0%, 95%) ;
+    font-family: "Lexend Deca", sans-serif;
+    text-align: start;
+    opacity: 90%;
+    line-height: 1.5em;
+}
+
+.btn2{
+    position: relative;
+    top: 160px;
+
+}
+
+.btn2  button{
+    padding: 13px 30px;
+    border-radius: 20px;
+    border: none;
+    color:hsl(184, 100%, 22%) ;
+    font-family:"Lexend Deca", sans-serif ;
+}
+
+.btn2 button:hover{
+    background-color:hsl(184, 100%, 22%) ;
+    color: #fff;
+    border:2px solid white;
+}
+
+
+
+.card3{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.header h3{
+    color:hsl(0, 0%, 95%);
+    margin-top: 14px;
+    font-size: 30px;
+}
+
+img{
+    margin-top: 15px;
+}
+
+ p{
+    color:hsl(0, 0%, 95%) ;
+    font-family: "Lexend Deca", sans-serif;
+    text-align: start;
+    opacity: 90%;
+    line-height: 1.7em;
+    padding:20px 0px;
+}
+
+.btn3{
+    position: relative;
+    top: 160px;
+
+}
+
+.btn3 button{
+    padding: 13px 30px;
+    border-radius: 20px;
+    border: none;
+    color:hsl(179, 100%, 13%);
+    font-family:"Lexend Deca", sans-serif ;
+}
+
+.btn3 button:hover{
+    background-color:hsl(179, 100%, 13%) ;
+    color: #fff;
+    border:2px solid white;
+}
+
+@media screen and (max-width:600px) {
+
+
+
+
+
+.grid-wrapper{
+    width: 100%;
+    min-height:100% ;
+    margin:0px auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(3, 1fr );
+
+}
+
+
+body{
+    font-size: 15px;
+    font-family: "Big Shoulders Display", 
+    sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100vh;
+
+}
+
+.card{
+    padding: 60px;
+}
+
+.header h3{
+    color:hsl(0, 0%, 95%);
+    position: relative;
+    top: 50px;
+    font-size: 50px;
+}
+
+img{
+    margin-top: 25px;
+    transform: scale(1.6);
+}
+
+
+
+
+}
